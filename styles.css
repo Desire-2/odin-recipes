@@ -1,12 +1,23 @@
+* {
+    padding: 20px;
+    margin: 20px;
+    border: 4px;
+    font-size: 30x;
+}
 button {
-    padding: 2px;
+    padding: 20px;
+    margin: 20px;
+    border: 4px;
     align-items: center;
     font-family: 'Times New Roman', Times, serif;
     size: 100px;
-    display: block;
+    display: flex;
     border: 3px;
     inline-size: 10px;
     font-weight: bold;
+    background-color: blue;
+    size-adjust: 500px;
+
 }
 img {
     height: auto;
