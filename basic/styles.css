@@ -79,4 +79,36 @@ h2 {
     margin: 20px;
     border: 10px solid rgb(44, 44, 2);
     border-radius: 40px;
+    
+}
+.content {
+    padding: 20px;
+    margin: 20px;
+    border: 10px solid white;
+    border-radius: 10px;
+    text-align-last:flex;
+    font-weight: bolder;
+    float: inline-end;
+
+}
+.content:hover {
+    background-color: rgb(24, 13, 62);
+    box-shadow: 5px 5px 2px;
+    border-bottom: 2px solid;
+    transform: translate(-5%, -5%);
+    transition: all 0.1s ease-in;
+}
+.ingredients {
+    padding: 10%;
+    margin: 15px;
+    border-radius: 10px;
+    border: 10px;
+}
+.steps {
+    font-family: 'Times New Roman', Times, serif;
+padding: 10px;
+border: 5px solid rgb(28, 44, 4);
+font-size: 20px;
+border-radius: 40px;
+
 }
