@@ -1,0 +1,82 @@
+* {
+background-color: rgb(154, 137, 171);
+margin: 10px;
+}
+.head {
+    padding: 10px;
+    top: 15px;
+    border: 10px solid white;
+    font-weight: 700;
+    font-style: initial;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 30px;
+    text-align-last: center;
+
+}
+.btn,
+ .book_now{
+    align-items: center;
+    display: inline-table;
+    padding: 10px;
+    border: 10px solid black;
+    border-radius: 60px;
+    left: 50%;
+
+}
+#btn {
+    align-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: 10px solid rgb(8, 8, 83);
+    text-align-last: center;
+    border-radius: 80px;
+
+
+}
+#btn {
+    display: grid;
+
+}
+button {
+    padding: 10px;
+    border: 10px solid ;
+    border-radius: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+h1 {
+    font-display: swap;
+    font-stretch: semi-expanded;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    font-style: oblique;
+}
+button:hover {
+    background-color: rgb(9, 111, 5);
+    box-shadow: 5px 5px 2px;
+    border-bottom: 2px solid;
+    transform: translate(-1%, -1%);
+    transition: all 0.1s ease-in;
+}
+button:active {
+    box-shadow:inset;
+    border-bottom-width: 4px;
+    transform: translate(5px, 6px);
+}
+img {
+    height: auto;
+    width: 500px;
+    border-radius: 40px;
+    border: 10px solid yellow;
+}
+h2 {
+    font-style: italic;
+    font-family:sans-serif;
+}
+.item {
+    padding: 10px;
+    margin: 20px;
+    border: 10px solid rgb(44, 44, 2);
+    border-radius: 40px;
+}
